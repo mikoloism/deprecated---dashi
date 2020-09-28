@@ -47,6 +47,7 @@ const is = {
 		hex: (subject) => /^(#[a-f0-9]{3,12}|[a-f0-9]{3,12})$/i.test(subject),
 		num: (subject) => (/^[0-9]{1,}$/.test(subject)),
 		sign: (subject) => (/^-{0,1}[0-9]{1,}$/.test(subject)),
+		_sign: (subject) => (/^-{1}[0-9]{1,}$/.test(subject)),
 		float: (subject) => (/^[0-9]{1,}\.[0-9]{1,}$/.test(subject)),
 		signF: (subject) => (/^-{1}[0-9]{1,}\.[0-9]{1,}$/.test(subject)),
 		numF: (subject) => (/^[0-9]{1,}(\.[0-9]{1,}|[0-9]{0,})$/.test(subject)),
