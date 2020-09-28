@@ -48,8 +48,7 @@ const is = {
 		num: (subject) => /^[0-9]{1,}$/.test(subject),
 		sign: (subject) => /^(\-{0,1}[0-9]{1,}|[0-9]{1,})$/.test(subject),
 		// float: (subject) => (/^([0-9]{0,}|[0-9]{1,}\.{0,1})[0-9]{1,}$/.test(subject))
-		float: (subject) =>
-			/^[0-9]{1,}(\.{0,1}[0-9]{1,}|[0-9]{0,})$/.test(subject),
+		float: (subject) => (/^[0-9]{1,}\.[0-9]{1,}$/.test(subject)),
 		signF: (subject) => (/^-{1}[0-9]{1,}\.[0-9]{1,}$/.test(subject)),
 		email: (subject) => (/^[a-z]{1,}([_a-z0-9\.]{0,}|[a-z])[a-z0-9]{1,}@{1}[a-z]{3,}(\.[a-z]{2,4}|\.[a-z]{2,4}\.[a-z]{2,4})$/i.test(subject))
 	},
