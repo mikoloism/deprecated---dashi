@@ -52,7 +52,7 @@ const is = {
 			/^[0-9]{1,}(\.{0,1}[0-9]{1,}|[0-9]{0,})$/.test(subject),
 		signF: (subject) =>
 			/^\-{0,1}[0-9]{1,}(\.{0,1}[0-9]{1,}|[0-9]{0,})$/.test(subject),
-		// email: (subject) => (/^[a-z]{1,}([0-9\.]{0,}[a-z]{1,}|[a-z0-9]{2,})\.{0,0}@[a-z]{3,}\.[a-z]{2,3}$/i.test(subject))
+		email: (subject) => (/^[a-z]{1,}([_a-z0-9\.]{0,}|[a-z])[a-z0-9]{1,}@{1}[a-z]{3,}(\.[a-z]{2,4}|\.[a-z]{2,4}\.[a-z]{2,4})$/i.test(subject))
 	},
 	//#endregion REGEX - REGEXP
 	//#region DOCK - DOCUMENT
