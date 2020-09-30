@@ -97,3 +97,12 @@ yes, actually, i say to you, just add below line into your **HTML/PUG/JADE** fil
 ## logs
 
 tomorrow, i say about other
+
+## issue
+
+-   [ ] **documentation** for heads and keywords of Script
+-   [x] create _CDN_ of [git repo][1] for _globally usage_
+-   [ ] need severally modifiers
+<!-- links -->
+
+[1]: (https://github.com/miko-github/Chekcups.git)
