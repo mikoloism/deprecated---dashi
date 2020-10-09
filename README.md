@@ -125,6 +125,7 @@ tomorrow, i say about other
 -   [ ] **documentation** for heads and keywords of Script
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
 -   [ ] need severally modifiers
+-   [ ] [README FILE](./README.md) : adding index section
 <!-- links -->
 
 [1]: (https://github.com/miko-github/Chekcups.git)
