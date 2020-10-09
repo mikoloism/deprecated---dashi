@@ -1,8 +1,26 @@
-# checkups (chekCups)
+# **checkups (_chekCups_)**
 
 > this file many helpful javascript library for checking data types and get work with `document` object (not fully DOM) as `dock`
 
-## how use it?
+## **Index**
+
+-   [Usage](#Usage)
+    -   [Requires](#Requires)
+    -   [Keywords](#Keywords)
+-   [Logs](#Logs)
+-   [Issues](#Issues)
+
+---
+
+## **Usage**
+
+> [⬆️ Index](#Index)
+
+-   [Usage](#Usage)
+    -   [Requires](#Requires)
+    -   [Keywords](#Keywords)
+
+### Requires
 
 yes, actually, i say to you, just add below line into your **HTML/PUG/JADE** file and for other type of **_extensions(e.g. React-Js, Angular, Vue, and other_**); we not have idea?! 🤷 🤷‍♂️
 
@@ -21,7 +39,7 @@ yes, actually, i say to you, just add below line into your **HTML/PUG/JADE** fil
     script(type="text/javascript", src="https://cdn.jsdelivr.net/gh/miko-github/Chekcups/checkups.js", crossorigin="anonymous")
     ```
 
-## features
+### Keywords
 
 -   **is**
 
@@ -94,11 +112,15 @@ yes, actually, i say to you, just add below line into your **HTML/PUG/JADE** fil
     regex.float('3.4'); //=> true
     ```
 
-## logs
+## **Logs**
+
+> [⬆️ Index](#Index)
 
 tomorrow, i say about other
 
-## issue
+## **Issues**
+
+> [⬆️ Index](#Index)
 
 -   [ ] **documentation** for heads and keywords of Script
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
