@@ -14,7 +14,7 @@
 
 ## **Usage**
 
-> [⬆️ Index](#Index)
+[⬆️ Index](#Index)
 
 -   [Usage](#Usage)
     -   [Requires](#Requires)
@@ -114,13 +114,13 @@ yes, actually, i say to you, just add below line into your **HTML/PUG/JADE** fil
 
 ## **Logs**
 
-> [⬆️ Index](#Index)
+[⬆️ Index](#Index)
 
 tomorrow, i say about other
 
 ## **Issues**
 
-> [⬆️ Index](#Index)
+[⬆️ Index](#Index)
 
 -   [ ] **documentation** for heads and keywords of Script
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
