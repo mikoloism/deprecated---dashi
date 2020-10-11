@@ -126,6 +126,7 @@ tomorrow, i say about other
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
 -   [ ] need severally modifiers
 -   [ ] README FILE : adding index section
+-   [ ] Add `When`, `Where` and it and glob KyWord
 <!-- links -->
 
 [1]: (https://github.com/miko-github/Chekcups.git)
