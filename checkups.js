@@ -13,6 +13,19 @@ const is = {
 		tag: (subject) =>
 			subject instanceof Element || subject instanceof HTMLElement,
 	},
+	are = {
+		empty: (...subjects) => {
+			let result = [], all = true;
+			subjects.forEach((subject) => result.push(typeof subject === `undefined` || subject === undefined));
+			return(!!all ? !result.entries(false) : result.entries(true));
+		},
+		func: (...subjects) =>
+		{
+			let result = [], all = true;
+			subjects.forEach((subject) => result.push(typeof subject === `function` || subject instanceof Function));
+			return(!!all ? !result.entries(false) : result.entries(true));
+		},
+	},
 	//#endregion IS
 	//#region HAS
 	has = {
