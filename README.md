@@ -125,7 +125,7 @@ tomorrow, i say about other
 -   [ ] **documentation** for heads and keywords of Script
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
 -   [ ] need severally modifiers
--   [ ] README FILE ![README FILE](https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Freadme_2620624&psig=AOvVaw1hCB7byIqL_5i5zCUad9kH&ust=1602527875878000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDul92XrewCFQAAAAAdAAAAABAD) : adding index section
+-   [ ] README FILE ![README FILE](https://iconscout.com/icon/markdown-2) : adding index section
 -   [ ] Add `When`, `Where` and `it` and glob KyWord
 -   [ ] Add Multiple Argument to Kywords
 -   [x] ~~Try **Currying Functions** (_canceled_)~~
