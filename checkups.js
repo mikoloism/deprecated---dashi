@@ -1,10 +1,17 @@
 'use strict';
 //#region IS
 const is = {
-		empty: (subject) =>
-			typeof subject === `undefined` || subject === undefined,
-		func: (subject) =>
-			typeof subject === `function` || subject instanceof Function,
+		empty: (...subjects) => {
+			let result = [], all = true;
+			subjects.forEach((subject) => result.push(typeof subject === `undefined` || subject === undefined));
+			return(!!all ? !result.entries(false) : result.entries(true));
+		},
+		func: (...subjects) =>
+		{
+			let result = [], all = true;
+			subjects.forEach((subject) => result.push(typeof subject === `function` || subject instanceof Function));
+			return(!!all ? !result.entries(false) : result.entries(true));
+		},
 		obj: (subject) => typeof subject === `object`,
 		_null: (subject) => is.obj(subject) && subject === null,
 		array: (subject) => has.obj(subject) && subject instanceof Array,
