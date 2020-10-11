@@ -129,6 +129,7 @@ tomorrow, i say about other
 -   [ ] Add `When`, `Where` and `it` and glob KyWord
 -   [ ] Add Multiple Argument to Kywords `are`
     -   don't change `is` Kyword
+    -   for using `are` Kyword, we created new branch with **Are** name
 -   [x] ~~Try **Currying Functions** (_canceled_)~~
 
 <!-- links -->
