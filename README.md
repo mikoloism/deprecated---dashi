@@ -125,9 +125,10 @@ tomorrow, i say about other
 -   [ ] **documentation** for heads and keywords of Script
 -   [x] create _CDN_ of [git repo][1] for _globally usage_
 -   [ ] need severally modifiers
--   [ ] README FILE ![README FILE](https://img.icons8.com/bubbles/0.3x/document.png) : adding index section
+-   [ ] README FILE : adding index section
 -   [ ] Add `When`, `Where` and `it` and glob KyWord
--   [ ] Add Multiple Argument to Kywords
+-   [ ] Add Multiple Argument to Kywords `are`
+    -   don't change `is` Kyword
 -   [x] ~~Try **Currying Functions** (_canceled_)~~
 
 <!-- links -->
