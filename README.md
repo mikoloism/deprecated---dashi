@@ -128,6 +128,8 @@ tomorrow, i say about other
 -   [ ] README FILE : adding index section
 -   [ ] Add `When`, `Where` and `it` and glob KyWord
 -   [ ] Add Multiple Argument to Kywords
+-   [-] Try **Currying Functions** (_canceled_)
+
 <!-- links -->
 
 [1]: (https://github.com/miko-github/Chekcups.git)
