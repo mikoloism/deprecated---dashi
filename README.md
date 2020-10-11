@@ -128,7 +128,7 @@ tomorrow, i say about other
 -   [ ] README FILE : adding index section
 -   [ ] Add `When`, `Where` and `it` and glob KyWord
 -   [ ] Add Multiple Argument to Kywords
--   [-] Try **Currying Functions** (_canceled_)
+-   [+] Try **Currying Functions** (_canceled_)
 
 <!-- links -->
 
