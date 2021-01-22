@@ -219,9 +219,5 @@ const is = {
 Array.constructor.prototype.range = (start = 0, stop) =>
 	!stop
 		? [...Array(start + 1).keys()]
-		: Array.from(
-				Array(stop - start + 1)
-					.fill(start)
-					.map((item, index) => (item += index))
-		  );
+		: [...Array(stop + 1).keys()].slice(start, stop + 1);
 //#endregion Array Native
