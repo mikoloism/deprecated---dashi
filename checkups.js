@@ -207,6 +207,15 @@ const is = {
 	};
 //#endregion SOME
 //#region Array Native
+/**
+ *
+ * @param {Number} start default eqaul 0
+ * @param {Number} stop
+ * @return {Array} return arrays of index number to use in `.forEach(...)`
+ * @description
+ * Array.range(stop).forEach(index => ...);
+ * Array.range(from, to).forEach(index => ...); // from = start, to = stop
+ */
 Array.constructor.prototype.range = (start = 0, stop) =>
 	!stop
 		? [...Array(start + 1).keys()]
