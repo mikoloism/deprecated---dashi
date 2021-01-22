@@ -210,11 +210,10 @@ const is = {
 Array.constructor.prototype.range = function (start = 0, stop) {
 	return !stop
 		? [...Array(start + 1).keys()]
-		: Array.from([
-				start,
-				...Array(stop - start)
-					.fill(start + 1)
-					.map((item, index) => (item += index)),
-		  ]);
+		: Array.from(
+				Array(stop - start + 1)
+					.fill(start)
+					.map((item, index) => (item += index))
+		  );
 };
 //#endregion Array Native
