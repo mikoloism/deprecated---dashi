@@ -209,7 +209,7 @@ const is = {
 //#region Array Native
 Array.constructor.prototype.range = function (start = 0, stop) {
 	return !stop
-		? (([start, stop] = [0, start]), [...Array(stop + 1).keys()])
+		? [...Array(start + 1).keys()]
 		: Array.from([
 				start,
 				...Array(stop - start)
