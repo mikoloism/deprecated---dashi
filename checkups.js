@@ -207,13 +207,12 @@ const is = {
 	};
 //#endregion SOME
 //#region Array Native
-Array.constructor.prototype.range = function (start = 0, stop) {
-	return !stop
+Array.constructor.prototype.range = (start = 0, stop) =>
+	!stop
 		? [...Array(start + 1).keys()]
 		: Array.from(
 				Array(stop - start + 1)
 					.fill(start)
 					.map((item, index) => (item += index))
 		  );
-};
 //#endregion Array Native
