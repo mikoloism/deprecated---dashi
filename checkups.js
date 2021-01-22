@@ -206,3 +206,15 @@ const is = {
 		},
 	};
 //#endregion SOME
+//#region Array Native
+Array.prototype.range = function (start = 0, stop) {
+	return !stop
+		? (([start, stop] = [0, start]), [...Array(stop + 1).keys()])
+		: Array.from([
+				start,
+				...Array(stop - start)
+					.fill(start + 1)
+					.map((item, index) => (item += index)),
+		  ]);
+};
+//#endregion Array Native
