@@ -207,8 +207,18 @@ const is = {
 	};
 //#endregion SOME
 //#region Array Native
+Array.prototype.max = function () {
+	let max = this[0];
+	this.forEach((item) => max < item && (max = item));
+	return max;
+};
+Array.prototype.min = function () {
+	let min = this[0];
+	this.forEach((item) => item < min && (min = item));
+	return min;
+};
 /**
- *
+ * range (like Python range)
  * @param {Number} start default eqaul 0
  * @param {Number} stop
  * @return {Array} return arrays of index number to use in `.forEach(...)`
