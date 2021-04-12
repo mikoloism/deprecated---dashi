@@ -1,4 +1,4 @@
-# **checkups (_chekCups_)**
+# **checkups (_chekCups_)** ![please, wait...](https://img.shields.io/static/v1?label=&message=please%2C+wait...&color=d82)
 
 > this file many helpful javascript library for checking data types and get work with `document` object (not fully DOM) as `dock`
 
