@@ -28,7 +28,7 @@
     ```pug
     script(type="text/javascript", src="https://cdn.jsdelivr.net/gh/miko-github/Chekcups/checkups.js", crossorigin="anonymous")
     ```
-<div style="opacity: 0">
+<div style="display: none;">
 ## **Issues**
 
 [⬆️ Index](#Index)
