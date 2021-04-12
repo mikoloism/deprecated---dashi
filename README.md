@@ -1,16 +1,14 @@
 # dash-dash ![please, wait...](https://img.shields.io/static/v1?label=&message=please%2C+wait...&color=d82)
 
-> 🤔
+🤔
 
-## **Index**
+## Index
 
 - [Requires](#requirement)
 
----
-
 ## requirement
 
--   **HTML**:
+- HTML:
     ```html
     <script
     	type="text/javascript"
@@ -18,7 +16,7 @@
     	crossorigin="anonymous"
     ></script>
     ```
--   **PUG/JADE**:
+-   PUG/JADE:
     ```pug
     script(type="text/javascript", src="https://cdn.jsdelivr.net/gh/miko-github/dash-dash/index.js", crossorigin="anonymous")
     ```
