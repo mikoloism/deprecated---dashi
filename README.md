@@ -4,45 +4,23 @@
 
 ## **Index**
 
--   [Usage](#Usage)
-    -   [Requires](#Requires)
-    -   [Keywords](#Keywords)
--   [Logs](#Logs)
--   [Issues](#Issues)
+- [Requires](#requirement)
 
 ---
 
-## **Usage**
-
-[⬆️ Index](#Index)
+## requirement
 
 -   **HTML**:
     ```html
     <script
     	type="text/javascript"
-    	src="https://cdn.jsdelivr.net/gh/miko-github/Chekcups/checkups.js"
+    	src="https://cdn.jsdelivr.net/gh/miko-github/dash-dash/index.js"
     	crossorigin="anonymous"
     ></script>
     ```
 -   **PUG/JADE**:
     ```pug
-    script(type="text/javascript", src="https://cdn.jsdelivr.net/gh/miko-github/Chekcups/checkups.js", crossorigin="anonymous")
+    script(type="text/javascript", src="https://cdn.jsdelivr.net/gh/miko-github/dash-dash/index.js", crossorigin="anonymous")
     ```
-<div style="display: none;">
-## **Issues**
 
-[⬆️ Index](#Index)
-
--   [ ] **documentation** for heads and keywords of Script
--   [x] create _CDN_ of [git repo][1] for _globally usage_
--   [ ] need severally modifiers
--   [ ] README FILE : adding index section
--   [ ] Add `When`, `Where` and `it` and glob KyWord
--   [ ] Add Multiple Argument to Kywords `are`
-    -   don't change `is` Kyword
-    -   for using `are` Kyword, we created new branch with **Are** name
--   [x] ~~Try **Currying Functions** (_canceled_)~~
-</div>
-<!-- links -->
-
-[1]: (https://github.com/miko-github/Chekcups.git)
+[1]: (https://github.com/miko-github/dash-dash.git)
