@@ -26,6 +26,9 @@ const is = {
 			subject !== `` &&
 			subject !== false,
 		obj: (subject) => is.obj(subject) && !is._null(subject),
+		key: function hasKey(obj, key) {
+			return Object.prototype.hasOwnProperty.call(obj, key);
+		},
 		array: (subject) => is.array(subject) && subject.length > 0,
 		str: (subject) =>
 			is.str(subject) &&
